@@ -1,5 +1,5 @@
-import AddTodo from "@/components/shared/AddTodo";
-import Todo from "@/components/shared/Todo";
+import AddTodo from "@/app/lib/AddTodo";
+import Todo from "@/app/lib/Todo";
 import { prisma } from "@/utils/prisma";
 import React from "react";
 
