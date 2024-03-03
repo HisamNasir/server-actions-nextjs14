@@ -21,7 +21,7 @@ const Home = async () => {
   const data = await getData();
   return (
     <div className="p-2 py-8 mx-auto flex justify-center ">
-      <div className="max-w-lg w-full border p-2 rounded-lg flex flex-col gap-2">
+      <div className=" w-full border p-2 rounded-lg flex flex-col gap-2">
         <h1 className=" font-black text-xl text-center tracking-widest">
           ToDo List
         </h1>
