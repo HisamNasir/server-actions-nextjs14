@@ -26,7 +26,7 @@ const Home = async () => {
           ToDo List
         </h1>
         <AddTodo />
-        <div className="flex flex-col gap-2 m-1 p-2 border">
+        <div className="flex flex-col gap-2 m-1 p-2 ">
           <h1 className=" text-lg font-bold">List of Todos:</h1>
           {data.map((todo, id) => (
             <div className="w-full" key={id}>
